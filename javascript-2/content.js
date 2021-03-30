@@ -19,9 +19,9 @@ else{
 }
 // 3) Задание
 console.log("3) Задание")
-let comment = "asdo;fjaosdfhasdfhakjsdfhakjsdfhjahf"
+let comment = "asdo;fjaosdfhasdfhakjsdfhakjsdfhjahывааааааааааааааааааааааааааааааааааааааааааааааааааааааааццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццццf"
 if (comment.length > 120){
-    console.log("Текст слишком длинный. В нем" + comment + "символов")
+    console.log("Текст слишком длинный. В нем " + comment.length + " символов")
 }
 else{
     console.log("Символы" + comment)
@@ -35,6 +35,7 @@ if (cartSum >= 5000){
     cartSum = cartSum - cent
     console.log("Ваша скидка 5%. Итого:" + cartSum +". Доставка бесплатно")
 }
+
 else {
     console.log("Итого к оплате: " + cartSum +". До скидки осталось:" + (5000 - cartSum) +" чтобы cartSum стал 5000.")
 }
