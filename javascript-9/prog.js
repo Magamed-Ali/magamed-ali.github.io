@@ -3,6 +3,7 @@
 let ul = document.getElementById('nev_id');
 ul.classList.add('nevclass');
 
+
  /////
 
 let btn_1 = document.getElementById('btn_1');
@@ -41,3 +42,13 @@ btn_4.addEventListener('click', function(){
     ul.lastChild.remove()
 });
         
+let btn_5 = document.getElementById('btn_5');
+
+btn_5.addEventListener('click', function(){
+    let body = document.getElementById('body');
+   body.innerHTML = '';
+
+   body.style.backgroundColor = 'Black';
+   
+    
+});
