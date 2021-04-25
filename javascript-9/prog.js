@@ -48,7 +48,7 @@ btn_5.addEventListener('click', function(){
     let body = document.getElementById('body');
    body.innerHTML = '';
 
-   body.style.backgroundColor = 'Black';
+   body.style.backgroundColor = 'bleck';
    
     
 });
