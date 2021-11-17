@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 40px 30px;
+    background-color: rgb(217, 248, 223);
+}
+
+.main_block{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+a {
+    text-decoration:none;
+  }
+.box{
+    width: 350px;
+    height: 200px;
+    border: 1px solid #333;
+    margin: 30px;
+    font-size: 36px;
+    text-align: center;
+    line-height: 150px;
+}
+
+.box1{
+    background-color: rgb(119, 175, 63);
+}
+.box2{
+    background-color: chartreuse;
+}
+.box3{
+    background-color: darkgoldenrod;
+}
+.box4{
+    background-color: darkolivegreen;
+}
+.box5{
+    background-color: gold;
+}
+.box6{
+    background-color: khaki;
+}
