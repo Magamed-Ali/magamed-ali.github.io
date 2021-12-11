@@ -11,10 +11,8 @@ a {
     width: 400px;
     height: 220px;
     border: 1px solid rgb(162, 158, 156);
+    padding-left: 15px;
     margin-bottom: 15px;
-    font-size: 26px;
-    text-align: center;
-    line-height: 150px;
     background-color: rgb(255, 255, 255);
     border-radius: 8px;
     box-shadow: 0 0 15px 5px rgb(161, 163, 161);
@@ -40,3 +38,36 @@ hr{
     background-image: -ms-linear-gradient(left, #fff, #000, #fff);
     background-image: -o-linear-gradient(left, #fff, #000, #fff);
     }
+.box h5{
+  font-weight: 300;
+  color: #a94442;
+  margin: 20px 0 10px 0px;
+
+}
+.box p{
+  min-height: 100px;
+  color: #004085;
+  margin: 0 0 10px;
+  line-height: 22px;
+}
+
+.box_link{
+  display: flex;
+  justify-content: space-around;
+}
+
+.herouku a{
+  color: #337ab7;
+  text-decoration: none;
+}
+.herouku:hover{
+ text-decoration: underline;
+}
+
+.git a{
+  color: #a94442;
+  text-decoration: none;
+}
+.git:hover{
+  text-decoration: underline;
+}
