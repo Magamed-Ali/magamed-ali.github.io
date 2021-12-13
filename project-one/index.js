@@ -1,15 +1,12 @@
 
-function divisors(integer) {
-  let people = [];
-  for(let i = 2; i <= 9; i++){
-    if(integer%i === 0){
-      people.push(i)
-    }
-  }
-  if(people.length === 0){
-    people = (`${integer} is prime`)
-  }
-  return people;
-};
+function highAndLow(numbers){ 
+let rew = numbers.split(' ');
+let newRew = rew.map(parseFloat)
+let min = Math.min.apply(null, newRew);
 
-console.log(divisors(13))
+let max = Math.max.apply(null, newRew);
+  return String(min, max)
+
+}
+
+console.log(highAndLow("15, 12, 34, 45")) 
